@@ -1,6 +1,20 @@
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+
 name = input("Enter your name: ")
 
 print("Welcome", name)
+admin = input("Enter Admin Mode? (yes/no): ")
+
+if admin == "yes":
+    password = input("Enter password: ")
+
+    if password == os.getenv("TASK_MANAGER_ADMIN_PASSWORD"):
+        print("Admin login successful")
+    else:
+        print("Wrong password")
 
 tasks = []
 
