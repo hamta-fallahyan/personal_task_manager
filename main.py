@@ -24,9 +24,11 @@ while True:
     if task == "exit":
         break
     priority = input("Enter priority (low/medium/high): ")
+
     while priority != "low" and priority != "medium" and priority != "high":
-        print("Invalid priority!")
+        print("Error! Invalid priority.")
         priority = input("Enter priority (low/medium/high): ")
+        print("Priority:", priority)
 
 
     tasks.append(task)
