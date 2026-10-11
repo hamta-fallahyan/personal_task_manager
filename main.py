@@ -1,4 +1,3 @@
-from tasks import show_tasks
 name = input("Enter your name: ")
 
 print("Welcome", name)
@@ -13,9 +12,11 @@ while True:
 
     tasks.append(task)
 
+    file = open("tasks.txt", "a")
+    file.write(task + "\n")
+    file.close()
+
 print("Your tasks:")
 
 for task in tasks:
     print(task)
-
-show_tasks(tasks)
