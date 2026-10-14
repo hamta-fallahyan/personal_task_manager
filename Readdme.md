@@ -28,6 +28,8 @@ Personal Task Manager is a Python application for managing personal tasks. Users
 - Display all tasks
 - Save tasks locally
 - Admin Mode with password protection
+- Set task priorities: low, medium, and high
+- Validate priority input
 
 ## Project Structure
 
@@ -139,8 +141,11 @@ Practice Git
 - [x] Separate task logic into another file
 - [x] Save tasks locally
 - [x] Add Admin Mode
+- [x] Add task completion status
+- [x] Add task deletion
 - [ ] Add task priorities
 - [ ] Improve task management features
+
 
 ## Contributing
 
