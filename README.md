@@ -1,5 +1,5 @@
 # Personal Task Manager
-A simple task manager built with Python
+A simple task manager built with Python for learning git and github
 
 ## Features
 - add multiple tasks
